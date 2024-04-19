@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #e1e9e8;
+}
+header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(16, 88, 136);
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    width: 60%;
+    display: flex;
+    margin-left: 35px;
+    
+}
+.header-left img{
+    height: 100px;
+    margin-top: 30px;
+}
+.header-left ul{
+   margin-left: 50px; 
+   display: flex;
+   gap: 40px;
+   list-style: none;
+   margin-top: 60px;
+}
+.header-left ul a{
+    color: rgb(23, 35, 30);
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-right{
+    width: 30%;
+    margin-top: 60px;
+}
+.header-right button{
+    width: 120px;
+    height: 50px;
+    border: 2px solid black;
+    box-shadow:inset 2px 2px rgba(0, 0, 0, 0.285);
+    padding: 10px;
+    margin-left: 15px;
+    background-color: rgb(83, 145, 83);
+    color: whitesmoke;
+    margin-left: 45px;
+}
+
+/* header end */
+
+/* search */
+.search{
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.input{
+    height: 50px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    border:none;
+}
+.search img{
+    width: 65px;
+    height: 55px;
+
+}
+.container{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.colomn{
+    width: 24%;
+    background-color: whitesmoke;
+}
+.first iframe{
+    width: 100%;
+    height: 100%;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+}
+.second h1{
+    font-size: 25px;
+    margin: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.second img{
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.second p{
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.third h1{
+    font-size: 25px;
+    margin: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.third img{
+    height: 70px;
+    width: 70px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .third p{
+      margin-left: 10px;
+      font-size: 15px;
+      text-align: center;
+  }
+  .four iframe{
+    width: 100%;
+    height: 250px;
+  }
+  .four h1{
+    font-size: 25px;
+    margin: 15px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    border-top: 15px solid rgb(238, 233, 233);
+}
+.four img{
+    height: 70px;
+    width: 70px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .four p{
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.travel{
+    display: flex;
+    justify-content: space-around;
+}
